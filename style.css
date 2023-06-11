@@ -106,10 +106,13 @@ header {
 }
 .voyage-img {
   width: 95%;
+  object-fit: cover;
+  max-height: 485px;
 }
 .img-voyage {
   display: flex;
   justify-content: flex-end;
+  width: 48%;
 }
 .hh3 {
   color: #0b739f;
